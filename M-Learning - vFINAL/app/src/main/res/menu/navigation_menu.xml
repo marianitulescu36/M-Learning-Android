@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homePageFragment"
+        android:icon="@drawable/ic_home_page"
+        android:title="Homepage"/>
+
+    <item android:id="@+id/menuProfile"
+        android:icon="@drawable/ic_profile_icon"
+        android:title="@string/profil"/>
+
+    <item android:id="@+id/barChartActivity"
+        android:icon="@drawable/ic_mycourses"
+        android:title="@string/bar_chart"/>
+
+    <item android:id="@+id/addCourse"
+        android:icon="@drawable/ic_addcourse"
+        android:title="@string/adauga_curs"/>
+   <item android:title="@string/mai_multe">
+    <menu>
+
+        <item
+            android:id="@+id/json"
+            android:icon="@drawable/ic_jsonfile"
+            android:title="@string/settings" />
+
+        <item android:id="@+id/rate_us"
+            android:icon="@drawable/ic_ratestar"
+            android:title="@string/rate_us"/>
+
+        <item
+            android:id="@+id/map"
+            android:icon="@drawable/ic_location"
+            android:title="@string/map" />
+
+        <item android:id="@+id/logOff"
+            android:icon="@drawable/ic_logoff"
+            android:title="@string/log_off"/>
+    </menu>
+    </item>
+</menu>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@color/colorPrimary">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="158dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/robotel_gif"
+        app:layout_constraintBottom_toTopOf="@+id/tv_contNou"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/ed_passwordInregistrare"
+        android:layout_width="356dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_text_round"
+        android:ems="10"
+        android:hint="@string/parola"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/ed_passwordConfirmation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ed_passwordConfirmation"
+        android:layout_width="356dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_text_round"
+        android:ems="10"
+        android:hint="@string/confirmare_parola"
+        android:inputType="textPassword"
+        android:paddingStart="20dp"
+        app:layout_constraintBottom_toTopOf="@id/ed_emailInregistrare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintVertical_bias="0.498" />
+
+    <EditText
+        android:id="@+id/ed_usernameInregistrare"
+        android:layout_width="356dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/edit_text_round"
+        android:ems="10"
+        android:hint="@string/username"
+        android:paddingStart="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/ed_passwordInregistrare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/ed_emailInregistrare"
+        android:layout_width="356dp"
+        android:layout_height="57dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/edit_text_round"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:paddingStart="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_inregistrare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button_inregistrare"
+        android:layout_width="309dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="70dp"
+        android:background="@drawable/button_bg"
+        android:text="@string/inregistrare"
+        android:textColor="#fafafa"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_contNou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/cont_nou"
+        android:textColor="@color/colorWhite"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toTopOf="@+id/ed_usernameInregistrare"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

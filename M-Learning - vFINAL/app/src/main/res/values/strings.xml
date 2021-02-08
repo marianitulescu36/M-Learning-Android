@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">LearnAndroid</string>
+    <string name="Login">Login</string>
+    <string name="no_account">Nu aveți cont? <font color='#01C6DB'>Înregistrare</font></string>
+    <string name="pastreaza_inregistrat">Păstrează-mă autentificat</string>
+    <string name="username">Username</string>
+    <string name="password">Parolă</string>
+    <string name="login">Login</string>
+    <string name="cancelLogin">Cancel</string>
+    <string name="homepage">Homepage</string>
+    <string name="profil">Profil</string>
+    <string name="cursurile_mele">Cursurile mele</string>
+    <string name="adauga_curs">Adaugă curs</string>
+    <string name="rate_us">Evaluează aplicația</string>
+    <string name="log_off">Log Off</string>
+    <string name="settings">JSON</string>
+    <string name="mai_multe">Mai multe</string>
+    <string name="user_admin">Meniu</string>
+    <string name="titlu_curs">Titlu curs</string>
+    <string name="lista_cursuri">Listă cursuri</string>
+    <string name="categorie">Categorie:</string>
+    <string name="continut_curs">Conținut curs</string>
+    <string name="tip_curs">Tip curs:</string>
+    <string name="data_curs">Dată curs:</string>
+    <string name="salvare_curs">Salvează curs</string>
+    <string name="incepator">Începător</string>
+    <string name="mediu">Mediu</string>
+    <string name="avansat">Avansat</string>
+    <string name="goToCourses">Acceseaza cursurile</string>
+    <string name="homepageDesc">Bun venit la Learn Android! \n
+        <br>Cu ajutorul cursurilor disponibile în aplicația noastră, vei putea învăța programarea în Android folosind limbajul Java.</br> \n\n
+                <br></br>
+    <br>Cursurile sunt împărțite pe 3 categorii: începător, mediu și avansat.</br> \n\n
+        <br></br>
+        <br>Apasă butonul de mai jos pentru a accesa lista de cursuri disponibile:</br></string>
+    <string name="cursuri_mesaj">Listă cursuri</string>
+    <string name="cont_nou">Cont nou</string>
+    <string name="inregistrare">Înregistrare</string>
+    <string name="parola">Parola</string>
+    <string name="username2">Username</string>
+    <string name="email">Email</string>
+    <string name="confirmare_parola">Confirmare parolă</string>
+    <string name="nu_ati_evaluat_inca_aplicatia">Nu ați evaluat încă aplicația!</string>
+    <string name="bar_chart">Bar Chart Firebase</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="map">Vizitează-ne!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="modifica_datele">Actualizeaza datele</string>
+    <string name="info_json">Aici poți importa și vizualiza un fișier json ce conține informațiile unui cursant și notițele pe care acesta le-a adăugat cursului completat aferent</string>
+    <string name="extrage_date_din_json">Extrage date din JSON</string>
+    <string name="user_cursant_curs_detalii_curs"><![CDATA[User->cursant->curs->detalii curs]]></string>
+</resources>
